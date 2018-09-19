@@ -1,0 +1,50 @@
+*{
+	margin: 0;padding: 0;
+}
+
+body{
+	background: url('/img/matrixfenix.png');
+
+}
+
+.container{
+	background:url('/img/logo-q.png')no-repeat; 
+}	
+
+.container{
+	width: 320px;
+	height: 430px;
+	background-color: black;
+	margin: 0 auto;
+}
+
+.title{
+	background-color:black;
+	color: white;
+	width: ;
+	height: ;
+	text-align: center;
+}
+
+.visor{
+	height: 33px;
+}
+.visor-1{
+	margin-left: 30px;
+}
+
+.div-botao{
+	margin-left: 30px;
+}
+.botao{
+	width: 50px;
+	height: 45px;
+	margin: 5px;
+	border-radius: 2px;
+	background-color: blue;
+	border: 1px solid violet;
+	font-size: 50px;
+
+}
+
+

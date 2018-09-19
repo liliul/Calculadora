@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora com Javascript</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="img"></div>
+		<div>
+			<header class="title"><h1>Calculadora</h1></header>
+			<div class="visor-1">
+				<input type="text" id="visor" size="30" class="visor">		
+			</div>
+			<br><br>
+			<div class="div-botao">
+				<section>
+					<input type="submit" class="botao" value="1" onclick="preencher(1);">
+					<input type="submit" class="botao" value="2" onclick="preencher(2);">
+					<input type="submit" class="botao" value="3" onclick="preencher(3);">
+					<input type="submit" class="botao" value="/" onclick="preencher('/')">
+				</section>
+				<br><br>
+				<section>
+					<input type="submit" class="botao" value="4" onclick="preencher(4);">
+					<input type="submit" class="botao" value="5" onclick="preencher(5);">
+					<input type="submit" class="botao" value="6" onclick="preencher(6);">
+					<input type="submit" class="botao" value="*" onclick="preencher('*')">
+				</section>
+				<br><br>
+				<section>
+					<input type="submit" class="botao" value="7" onclick="preencher(7);">
+					<input type="submit" class="botao" value="8" onclick="preencher(8);">
+					<input type="submit" class="botao" value="9" onclick="preencher(9);">
+					<input type="submit" class="botao" value="+" onclick="preencher('+')">
+				</section>
+				<br><br>
+				<section>
+					<input type="submit" class="botao" value="=" onclick="calcular();">
+					<input type="submit" class="botao" value="0" onclick="preencher(0);">
+					<input type="submit" class="botao" value="c" onclick="limpar();">
+					<input type="submit" class="botao" value="-" onclick="preencher('-')">
+				</section>
+				</div>	
+		</div>
+	</div>
+
+
+	<!-- Javascript -->
+	<script src="javascript/script.js"></script>
+</body>
+</html>
