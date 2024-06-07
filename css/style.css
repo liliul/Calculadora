@@ -15,25 +15,18 @@ body{
 }
 
 .container{
-/* 	background:url('/img/logo-q.png')no-repeat;  */
-}	
-
-.container{
 	width: 320px;
 	height: 430px;
-/* 	background-color: black; */
 	margin: 0 auto;
 }
 
 .title{
-/* 	background-color:black; */
 	color: white;
-	width: ;
-	height: ;
+	margin-bottom: 8px;
+
 	font-size: 1.2rem;
 	font-family: 'Ubuntu';
 	text-align: center;
-	margin-bottom: 8px;
 }
 
 .visor-1{
@@ -54,7 +47,6 @@ body{
 }
 
 .div-botao{
-/* 	margin-left: 30px; */
 	display: grid;
 	grid-template-rows: repeat(4, 1fr);
 	place-items: center;
@@ -67,14 +59,12 @@ body{
 .botao{
 	width: 50px;
 	height: 50px;
-/* 	margin: 5px; */
+
 	border-radius: 4px;
+	border: 0;
+
 	background-color: #212121;
 	color: white;
-	border: 0;
 	font-size: 2.8rem;
 	outline: none;
-
 }
-
-
